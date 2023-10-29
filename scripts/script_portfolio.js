@@ -1,7 +1,7 @@
 "use strict";
 ////////////////portfolio IMG////////////////
 const portfolioBtns = document.querySelector(".container__portfolio_btn");
-const portfolioImages = document.querySelectorAll(".portfolio__card");
+const portfolioImages = document.querySelectorAll(".portfolio__card_img");
 portfolioBtns.addEventListener("click", changeImage);
 
 function changeImage(event) {
