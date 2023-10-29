@@ -1,7 +1,7 @@
 .section_say {
   margin: 100px 0;
   padding: 120px 0;
-  background-image: url('/assets/images/say3_1.png');
+  background-image: url('./assets/images/say3_1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
