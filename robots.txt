@@ -1,0 +1,17 @@
+User-Agent: *
+Disallow: /*assets
+Disallow: /*styles
+Disallow: /*scripts
+Disallow: /script.js$
+Disallow: /style.css$
+Disallow: /README.md$
+Disallow: /pages/thanks.html$
+Disallow: /*?
+Crawl-delay: 1
+Host: https://example.com
+
+Sitemap: https://example.com/sitemap.txt
+
+
+
+

@@ -1,0 +1,6 @@
+https://example.com/index
+https://example.com/pages/contact
+https://example.com/pages/portfolio
+https://example.com/pages/service_1
+https://example.com/pages/thanks
+https://example.com/pages/privacy_policy
