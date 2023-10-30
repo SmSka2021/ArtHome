@@ -1,4 +1,4 @@
-# Author of this project is Sviatlana Matskevich
+# This is my design for decktop and mobile version
 
 `` https://t.me/frontend_developer_SmS ``
 
