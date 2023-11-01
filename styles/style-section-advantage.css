@@ -1,24 +1,24 @@
 .section_advantage {
-  margin-top: 70px;
+  margin-top:  7rem ;
 }
 
 .advantage_content_cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-gap:  2rem ;
   justify-items: center;
   gap: 1.6rem;
-  margin: 60px 0;
+  margin:  6rem  0;
 }
 
 .advantage_card_content {
   width: 100%;
-  padding: 20px 25px;
-  border-radius: 10px;
+  padding:  2rem   2.5rem ;
+  border-radius:  1rem ;
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap:  2.5rem ;
   box-shadow: var(--shadow);
   color: var(--primary-color);
   cursor: pointer;
@@ -30,18 +30,18 @@
 }
 
 .advantage_card_img {
-  width: 120px;
-  height: 120px;
+  width:  120px;
+  height:  120px ;
 }
 
 .advantage_card_title {
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom:  2rem ;
 }
 
 .advantage_card_text {
-  font-size: 1.8rem;
+  font-size: 18px;
   font-weight: 500;
   transition: all .5s ease-in;
 }
@@ -59,19 +59,19 @@
 
 @media (max-width: 768px) {
   .advantage_card_img {
-    width: 80px;
-    height: 80px;
+    width:  8rem ;
+    height:  8rem ;
   }
 
   .advantage_content_cards {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
-    margin: 50px 0 60px;
+    margin:   5rem  0  6rem ;
   }
 
   .advantage_card_title {
     font-size: 1.8rem;
-    margin-bottom: 15px;
+    margin-bottom:  1.5rem ;
   }
 
   .advantage_card_text {
@@ -82,8 +82,8 @@
 
 @media (max-width: 450px) {
   .advantage_card_img {
-    width: 60px;
-    height: 60px;
+    width:  6rem ;
+    height:  6rem ;
   }
 
   .advantage_card_title {
@@ -95,8 +95,8 @@
   }
 
   .advantage_card_content {
-    gap: 15px;
-    padding: 20px 15px;
+    gap:  1.5rem ;
+    padding:  2rem   1.5rem ;
   }
 
 }

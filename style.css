@@ -27,7 +27,7 @@
   --yellow-color: #fdfcbf;
 
   --shadow: 2px 11px 9px 6px rgba(34, 60, 80, 0.2);
-  --shadow2: 5px 12px 10px 10px rgba(34, 60, 80, 0.2);
+  --shadow2: 5px  1.2rem   1rem   1rem  rgba(34, 60, 80, 0.2);
   --text-shadow: 1px 1px white, 2px 2px #777;
   --text-shadow-dark: 1px 1px 1px var(--primary-color);
   --shadow-inset: -5px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
@@ -66,13 +66,29 @@
 }
 
 html {
-  font-size: 10px;
+  font-size:  1rem ;
 }
+@media (min-width: 1500px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1500px) and (min-width: 1300px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1299px) {
+  html {
+    font-size: 10px;
+  }
+}
+
 
 *::-webkit-scrollbar,
 html *::-webkit-scrollbar {
-  height: 12px;
-  width: 12px;
+  height:  1.2rem ;
+  width:  1.2rem ;
 }
 
 *::-webkit-scrollbar-track,
@@ -83,7 +99,7 @@ html *::-webkit-scrollbar-track {
 *::-webkit-scrollbar-thumb,
 html *::-webkit-scrollbar-thumb {
   background-color: var(--primary-color);
-  border-radius: 15px;
+  border-radius:  1.5rem ;
   border: 3px solid var(--second-color);
 }
 
@@ -133,14 +149,14 @@ body {
 }
 
 .container_page {
-  padding: 90px 0 0px;
+  padding: 9rem 0;
   color: var(--color-text);
 }
 
 .section_title {
   font-size: 4rem;
   font-weight: 700;
-  line-height: 5rem;
+  line-height: 5rem ;
   text-align: center;
   color: var(--primary-color);
 }
@@ -162,7 +178,7 @@ body {
 }
 
 .margin_bottom_100 {
-  margin-bottom: 100px;
+  margin-bottom: 10rem;
 }
 
 @media (max-width: 768px) {
@@ -174,7 +190,7 @@ body {
 
 /************BUTTON************/
 .btn {
-  padding: 10px 20px;
+  padding: 1rem 2rem;
   font-size: 1.8rem;
   text-align: center;
   border: none;
@@ -184,14 +200,14 @@ body {
   transition: 300ms;
   background-color: var(--color-gold);
   color: var(--white-color);
-  box-shadow: 0px 5px #524c3b, 0px 10px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 5px #524c3b, 0px  1rem   1rem  rgba(0, 0, 0, 0.6);
   text-decoration: none;
 }
 
 .btn:hover {
   transform: translateY(5px);
   color: var(--primary-color);
-  box-shadow: 0px 0px transparent, 0px 5px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px transparent, 0px 5px  1rem  rgba(0, 0, 0, 0.25);
 }
 
 .btn:focus {
@@ -200,7 +216,7 @@ body {
 
 .btn_small {
   font-size: 1.4rem;
-  padding: 5px 25px;
+  padding: .5rem 2.5rem;
 }
 
 .btn_center {
@@ -265,6 +281,7 @@ body {
   animation-delay: .5s;
 }
 
+
 @keyframes border-animate {
   0% {
     transform: scale(0.5);
@@ -285,8 +302,8 @@ body {
 
   .phone_button,
   .phone_button_relative {
-    width: 40px;
-    height: 40px;
+    width: 4rem;
+    height: 4rem;
 
   }
 }
@@ -305,14 +322,14 @@ body {
   padding: 2px;
   width: 50%;
   background-color: var(--second-color);
-  border-radius: 15px;
-  margin: 35px auto;
+  border-radius:  1.5rem ;
+  margin: 3.5rem auto;
 }
 
 .line_dark {
   background-image: radial-gradient(var(--primary-color), var(--second-color));
   width: 30%;
-  margin: 20px auto;
+  margin: 2rem auto;
 }
 
 .line_big {
@@ -320,28 +337,28 @@ body {
 }
 
 .line_small {
-  margin: 20px 0;
-  width: 200px;
+  margin: 2rem 0;
+  width: 20rem;
 }
 
 .line_center {
-  margin: 20px auto;
-  width: 300px;
+  margin: 2rem auto;
+  width: 30rem;
 }
 
 @media (max-width: 450px) {
   .line_center {
-    margin: 20px auto;
-    width: 200px;
+    margin:  2rem  auto;
+    width:  20rem ;
   }
 }
 
 /************COOKIES*************/
 .btn_cookie {
   font-size: 1.2rem;
-  width: 100px;
-  height: 40px;
-  border-radius: 10px;
+  width: 10rem;
+  height: 4rem;
+  border-radius:  1rem ;
   background-color: var(--primary-color);
   color: var(--white-color);
   cursor: pointer;
@@ -355,24 +372,24 @@ body {
 
 .btn_cookie_box {
   display: flex;
-  gap: 20px;
+  gap: 2rem;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 20px;
+  margin-left: 2rem;
   justify-content: center;
 }
 
 #cookie_note {
   display: none;
   position: fixed;
-  bottom: 15px;
+  bottom: 1.5rem;
   left: 5%;
   width: 90%;
-  padding: 20px 40px;
+  padding: 2rem 4rem;
   background-color: var(--second-color);
   border: 1px solid var(--primary-color);
-  border-radius: 10px;
-  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);
+  border-radius:  1rem ;
+  box-shadow: 2px 3px  1rem  rgba(0, 0, 0, 0.4);
   margin: 0;
   font-size: 1.4rem;
   font-weight: 600;
@@ -434,11 +451,11 @@ body {
 }
 
 .modal_close {
-  width: 15px;
-  height: 15px;
+  width: 1.5rem;
+  height: 1.5rem;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 2rem;
+  right: 2rem;
   fill: #444;
   cursor: pointer;
 }

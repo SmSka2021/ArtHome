@@ -1,13 +1,13 @@
 .service_page_box {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    margin: 50px 0;
+    gap:  3rem ;
+    margin:   5rem  0;
 }
 
 .article {
     display: flex;
-    gap: 20px;
+    gap:  2rem ;
 }
 
 .service_page_box_img {
@@ -29,7 +29,7 @@
 }
 
 .article_text {
-    margin: 20px 0;
+    margin:  2rem  0;
     font-size: 1.6rem;
     color: var(--color-text);
     line-height: 2.3rem;
@@ -46,10 +46,10 @@
     font-size: 2rem;
     line-height: 3.4rem;
     font-weight: 500;
-    padding: 100px 60px;
+    padding:  10rem   6rem ;
     background-image: url("../assets/images/service_fon.jpg");
     min-height: 100%;
-    text-indent: 25px;
+    text-indent:  2.5rem ;
     text-align: justify;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .btn_center.margin_top {
-    margin-top: 50px;
+    margin-top:   5rem ;
 }
 
 @media screen and (max-width: 768px) {
@@ -79,7 +79,7 @@
     }
 
     .article_text {
-        margin: 15px 0;
+        margin:  1.5rem  0;
         font-size: 1.4rem;
         line-height: 2.1rem;
     }
@@ -113,7 +113,7 @@
     }
 
     .services_page_order {
-        padding: 70px 20px;
+        padding:  7rem   2rem ;
     }
 
     .services_card_title {
