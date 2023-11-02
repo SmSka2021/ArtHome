@@ -35,13 +35,13 @@
 }
 
 .advantage_card_title {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom:  2rem ;
 }
 
 .advantage_card_text {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
   transition: all .5s ease-in;
 }

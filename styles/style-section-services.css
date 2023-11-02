@@ -52,18 +52,26 @@
 
 .services_card:nth-child(1) {
   background: url("../assets/images/design_out2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .services_card:nth-child(2) {
   background: url("../assets/images/design_in3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .services_card:nth-child(3) {
   background: url("../assets/images/recovery_out2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .services_card:nth-child(4) {
   background: url("../assets/images/recovery_in2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
